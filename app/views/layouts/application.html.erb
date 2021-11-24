@@ -12,6 +12,10 @@
   </head>
 
   <body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="">Restaurant kau hijau</a>
+    <%= link_to "New restaurant", new_restaurant_path, class: "btn btn-sm btn-primary" %>
+  </nav>
   <div class="container">
     <%= yield %>
   </div>
